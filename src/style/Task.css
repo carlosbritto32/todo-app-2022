@@ -1,4 +1,5 @@
 .task-container {
+  margin-top: 10px;
   padding: 10px 20px;
   width: 100%;
   min-width: 65px;
@@ -11,6 +12,11 @@
   border: 1px solid white;
 }
 
+.completed {
+  background-color: blueviolet;
+  text-decoration: line-through;
+}
+
 .task-text {
   width: 100%;
   height: 100%;
@@ -18,6 +24,11 @@
   display: flex;
   align-items: center;
   overflow-wrap: anywhere;
+}
+
+.tasks-icon-container {
+  display: flex;
+  align-items: center;
 }
 
 .task-icon {

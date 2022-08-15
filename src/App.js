@@ -1,12 +1,12 @@
 import "./App.css";
-import Task from "./components/Task";
+import TaskList from "./components/TaskList";
 
 function App() {
   return (
     <div className="App">
       <main className="main-container">
         <h1>ToDo List</h1>
-        <Task text={"pinky y pacha"} />
+        <TaskList />
       </main>
     </div>
   );
